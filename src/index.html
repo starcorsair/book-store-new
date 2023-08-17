@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="index.css">
+   <title>bookshop</title>
+</head>
+
+<body>
+   <div class="modal"></div>
+   <!-- верстаем шапку -->
+   <header class="header">
+      <div class="content">
+         <div class="menu">
+            <div class="menu-burger">
+               <span class="menu-burger__line"></span>
+               <span class="menu-burger__line"></span>
+               <span class="menu-burger__line"></span>
+            </div>
+            <div class="menu__logo"><a class="menu__logo-link" href="#">Bookshop</a></div>
+            <div class="menu__navigations navigations ">
+               <nav class="navigations__block">
+                  <ul class="navigations__list">
+                     <li><a href="#" class="navigations__link navigations__link-active">books </a></li>
+                     <li><a href="#" class="navigations__link">audiobooks</a></li>
+                     <li><a href="#" class="navigations__link">Stationery & gifts</a></li>
+                     <li><a href="#" class="navigations__link">blog</a></li>
+                  </ul>
+               </nav>
+               
+            </div>
+            <div class="menu__icons">
+               <div class="menu__icon n1">
+                  <a href="#"><img src="./img/user.svg" alt="profile"></a>
+               </div>
+               <div class="menu__icon n2">
+                  <a href="#"><img src="./img/search.svg" alt="search"></a>
+               </div>
+               <div class="menu__icon n3">
+                  <a href="#"><img src="./img/shop-bag.svg" alt="shop-bag"></a>
+                  <div class="basket-icon">
+                     <span class="basket-icon__text"></span>
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+
+
+   <!-- адаптив (всплывающее меню) -->
+
+   
+   <div class="dropdown-box">
+      <div class="dropdown-box__content">
+         <div class="dropdown-box__close">
+            <img class="dropdown-box__imag" src="./img/closeicon.svg" alt="closeimage">
+         </div>
+         <div class="dropdown-box__icons">
+            <div class="dropdown-box__block">
+               <img src="./img/search.svg" alt="search" class="dropdown-box__icon"></img>
+               <a href="#" class="dropdown-box__text">search...</a>
+            </div>
+            <div class="dropdown-box__block">
+               <img src="./img/user.svg" alt="profile" class="dropdown-box__icon"></img>
+               <a href="#" class="dropdown-box__text">profile</a>
+            </div>
+         </div>
+         <hr>
+         <nav class="dropdown-box__navivations">
+            <ul class="dropdown-box__list">
+               <li><a class="dropdown-box__link">books</a></li>
+               <li><a class="dropdown-box__link">audiobooks</a></li>
+               <li><a class="dropdown-box__link">Stationery & gifts</a></li>
+               <li><a class="dropdown-box__link">blog</a></li>
+            </ul>
+         
+         </nav>
+      </div>
+   </div>
+
+   <!-- ------------------------------------------------------------------------------------------------- -->
+   <div class="wrapper">
+
+         <div class="block-sticky"></div>
+<!-- --------------------------------------------------------------------------------------------------- -->
+
+
+
+
+
+         <!-- Верстаем слайдер-часть -->
+         <section1 class="slider">
+            <div class="slider__image">
+            </div>
+            <div class="slider__dots">
+            </div>
+               <div class="slider__change-block change-block">
+                  <a href="#" class="change-block__link">
+                     <p class="change-block__text">Change old book on new</p>
+                     <img src="./img/arrow.svg" alt="arrow" class="change-block__arrow">
+                  </a>
+               </div>
+               <div class="slider__top-block top-block">
+                  <a  href="#" class="top-block__link">
+                     <p class="top-block__text">top 100 books 2022</p>
+                     <img src="./img/arrow.svg" alt="arrow" class="top-block__arrow">
+                  </a>
+               </div>
+         </section1>
+
+<!-- --------------------------------------------------------------------------------------------------- -->
+
+
+
+
+
+<!-- верстаем сайдбар -->
+
+         <aside class="aside">
+            <ul class="aside__list">
+               <li data-parameter="Architecture" class="aside__link">Architecture</li>
+               <li data-parameter="Art" class="aside__link">Art & Fashion</li>
+               <li data-parameter="Biography & Autobiography" class="aside__link">Biography</li>
+               <li data-parameter="Business" class="aside__link">Business</li>
+               <li data-parameter="Crafts & Hobbies" class="aside__link">Crafts & Hobbies</li>
+               <li data-parameter="Drama" class="aside__link">Drama</li>
+               <li data-parameter="Fiction" class="aside__link">Fiction</li>
+               <li data-parameter="Cooking" class="aside__link">Food & Drink</li>
+               <li data-parameter="Health & Fitness" class="aside__link">Health & Wellbeing</li>
+               <li data-parameter="History" class="aside__link">History & Politics</li>
+               <li data-parameter="Humor" class="aside__link">Humor</li>
+               <li data-parameter="Poetry" class="aside__link">Poetry</li>
+               <li data-parameter="Psychology" class="aside__link">Psychology</li>
+               <li data-parameter="Science" class="aside__link">Science</li>
+               <li data-parameter="Technology" class="aside__link">Technology</li>
+               <li data-parameter="Travel" class="aside__link">Travel & Maps</li>
+            </ul>
+            
+         </aside>
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------ -->
+
+
+
+
+
+
+
+<!-- верстаем бибилотеку книг -->
+
+
+         <main class="main">
+            <div class="library">
+            </div>
+         </main>
+
+
+<!-- ----------------------------------------------------------------------------------------------------- -->
+
+
+
+<!-- верстаем футер -->
+         <footer class="footer">
+            <button class="load-more">load-more</button>
+         </footer>
+   </div>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+@mixin text($ff, $fw, $fz, $lh, $c){
+   font-family: $ff;
+   font-weight: $fw;
+   font-size: $fz;
+   line-height: $lh;
+   color: $c;
+}
+.footer {
+
+   margin-bottom: 74px;
+   
+}
+.load-more {
+   @include text ("Montserrat", 700, 8px, 9.75px,#4C3DB2);
+   text-transform: uppercase;
+   border: 1px solid #4C3DB2;
+   text-align: center;
+   width: 176px;
+   padding-top: 18px;
+   padding-bottom: 17px;
+   transition: 0.5s;
+   background: #fff;
+   text-align: center;
+   margin-left: 325px + 413px;
+
+   align-items: center;
+   &:not(.active__button):hover{
+      background: #6149fd65;
+      transform: scale(1.1);
+   }
+}
+@media (max-width:1425px){
+   .load-more{
+      margin-left: 58%;
+   }
+}
+@media (max-width:1270px){
+   .load-more{
+      margin-left: 56.52%;
+   }
+}
+@media (max-width:1120px){
+   .load-more{
+
+      margin-left: 40%;
+   }
+}
+@media (max-width:475px){
+   .load-more{
+      margin-left: 30%;
+   }
+}
+
