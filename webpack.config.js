@@ -30,8 +30,7 @@ module.exports = {
                loader: MiniCssExtractPlugin.loader,
                options: {
                   esModule: true,
-                  // hmr: true,
-                  // reloadAll: true
+            
                }
             }, 'css-loader'],
             test: /\.css$/
